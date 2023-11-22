@@ -1,0 +1,59 @@
+body {
+    background: url(/images/green-leaf-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    background: url(/images/green-leaf-wrapper-background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 25px;
+
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: Qundeasy;
+    src: url(/fonts/Qundeasy-Only-For-Personal-Use.ttf);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    font-family: Qundeasy;
+    font-size: 30px;
+}
+
+footer span {
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(160, 255, 51, 0.411);
+    padding: 10px;
+    font-family: qundeasy;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+main {
+    padding: 0 10px;
+}
