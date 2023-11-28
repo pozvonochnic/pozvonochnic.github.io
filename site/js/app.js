@@ -1,7 +1,6 @@
 
 function send() {
     let name = document.getElementById("name").value
-    document.getElementById("name").value = ""
     let message = document.getElementById("message").value
     document.getElementById("message").value = ""
 
