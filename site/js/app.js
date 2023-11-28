@@ -6,7 +6,7 @@ function send() {
     document.getElementById("message").value = ""
 
     if (message == '') {
-        document.getElementById("output").innerHTML = '<b>Ошибка: пустое сообщение!</b>'
+        document.getElementById("error").innerText = 'Ошибка: пустое сообщение!'
         return
     }
     if (name == '') {
@@ -14,4 +14,5 @@ function send() {
     }
 
     document.getElementById("output").innerHTML = `<b>${name}</b>: ${message}`
+    document.getElementById("error").innerText = ``
 }
