@@ -55,7 +55,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background: rgba(160, 255, 51, 0.411);
-    padding: 10px;
+    padding: 5px;
     font-family: qundeasy;
 }
 
@@ -67,4 +67,8 @@ nav a {
 
 main {
     padding: 0 10px;
+}
+
+#output b {
+    color: brown;
 }
