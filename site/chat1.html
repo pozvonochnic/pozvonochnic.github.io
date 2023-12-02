@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Чай</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Чат любителей чая</header>
+
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="chat.html" id="navchat">Чат</a>
+        </nav>
+
+        <main>
+            </br>
+            <input type="text" placeholder="Ваше имя" id="name">
+            <input type="text" placeholder="Ваше сообщение" id="message">
+            <button onclick="send()">Отправить</button>
+            <div id="messages">
+                <div>
+                    <p id="error"></p>
+                </div>
+            </div>
+        </main>
+
+        <hr>
+
+        <footer>
+            <span><img src="images/konfutsii.jpg" alt="Котонфуций"></span>
+            <span>Кто цяй не пьёт, тот цьмо. <br> &copy;Конфуций</span>
+        </footer>
+
+    </div>
+</body>
+
+</html>
