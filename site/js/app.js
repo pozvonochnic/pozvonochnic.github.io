@@ -24,7 +24,7 @@ function send() {
 
 function get() {
     (async () => {
-        const response = await fetch('chat.txt');
+        const response = await fetch('chat.php');
         const answer = await response.text();
         document.getElementById('messages').innerText = answer
     }
