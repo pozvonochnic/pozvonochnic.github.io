@@ -1,5 +1,5 @@
 get()
-setInterval(get, 2000)
+//setInterval(get, 2000)
 
 
 function send() {
