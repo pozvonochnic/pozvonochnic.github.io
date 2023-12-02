@@ -13,12 +13,12 @@ function send() {
     //if (name == '') {
     //name = 'Гость'
     //}
-    // (async () => {
-    //     const response = await fetch('chat.php?message=' + message);
-    //     const answer = await response.text();
-    //     document.getElementById("message").value = ""
-    // }
-    // ) ();
+    (async () => {
+        const response = await fetch('chat.txt?message=' + message);
+        const answer = await response.text();
+        document.getElementById("message").value = ""
+    }
+    )();
 }
 
 function get() {
