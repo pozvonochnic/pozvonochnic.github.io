@@ -4,7 +4,7 @@ get()
 
 function send() {
     // let name = document.getElementById("name").value
-    let message = document.getElementById("message").value
+    let message = document.getElementById("message").value = ""
 
     if (message == '') {
         document.getElementById("error").innerText = 'Ошибка: пустое сообщение!'
@@ -25,7 +25,7 @@ function send() {
 function get() {
     (async () => {
         const response = await fetch('chat.txt');
-        const answer = response.text();
+        const answer = await response.text();
         document.getElementById('messages').innerText = answer
     }
     )();
