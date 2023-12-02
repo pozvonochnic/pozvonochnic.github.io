@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-
-text
 <?php
-  echo 2+2;
-?>
-  3222
-
-</body>
-</html>
+$messages = file_get_contents('chat.txt');
+echo $messages;
