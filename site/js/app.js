@@ -1,8 +1,10 @@
+get()
+setInterval(get, 2000)
+
 
 function send() {
     let name = document.getElementById("name").value
     let message = document.getElementById("message").value
-    document.getElementById("message").value = ""
 
     if (message == '') {
         document.getElementById("error").innerText = 'Ошибка: пустое сообщение!'
@@ -11,7 +13,21 @@ function send() {
     if (name == '') {
         name = 'Гость'
     }
+    (async () => {
+        const response = await fetch('chat.php?message=' + message);
+        const answer = await response.text();
+        document.getElementById("message").value = ""
+    }
+    )();
+}
 
-    document.getElementById("output").innerHTML = `<b>${name}</b>: ${message}`
-    document.getElementById("error").innerText = ``
+function get() {
+
+    (async () => {
+        const response = await fetch('chat.php');
+        const answer = await response.text();
+        document.getElementById('messages').innerText = answer
+    }
+    )();
+
 }
