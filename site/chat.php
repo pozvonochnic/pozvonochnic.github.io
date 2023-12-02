@@ -12,3 +12,4 @@ if (isset($_GET['message'])) {
 
 $messages = file_get_contents('chat.txt');
 echo $messages;
+?>
