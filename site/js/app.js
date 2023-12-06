@@ -1,5 +1,5 @@
-// get()
-// setInterval(get, 2000)
+get()
+setInterval(get, 2000)
 
 
 function send() {
@@ -14,30 +14,35 @@ function send() {
     if (name == '') {
         name = 'Гость'
     }
-    //(async () => {
-    //  const response = await fetch('chat.php?message=' + message);
-    //const answer = await response.text();
-    //document.getElementById("message").value = ""
-    //}
-    //    )();
-    //}
-
-
-    // function get() {
-    //     (async () => {
-    //         const response = await fetch('chat.txt');
-    //         const answer = await response.text();
-    //         document.getElementById('messages').innerText = answer
-    //     }
-    //     )();
-    // }
-
     // (async () => {
-    //     const response = await fetch('chat.php');
+    //     const response = await fetch('chat.php?message=' + name + `: ` + message);
     //     const answer = await response.text();
-    document.getElementById("error").innerText = ''
-    document.getElementById("output").innerHTML = `<b>${name}:</b> ${message}`
+    //     document.getElementById("message").value = ""
+    // }
+    // )();
+
+    (async () => {
+        const response = await fetch('chat.php?message=' + name + `: ` + message);
+        const answer = await response.text();
+        document.getElementById("message").value = "";
+        document.getElementById("error").innerText = ''
+    }
+    )();
 }
+
+
+function get() {
+    (async () => {
+        const response = await fetch('chat.php');
+        const answer = await response.text();
+        document.getElementById('messages').innerText = answer
+    }
+    )();
+}
+
+    // document.getElementById("error").innerText = ''
+    // document.getElementById("output").innerHTML = `< b > ${ name }:</ > ${ message }`
+// }
 // } ';
 // }
 // )()
