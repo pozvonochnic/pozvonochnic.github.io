@@ -3,42 +3,12 @@
     margin: 0;
 }
 
-body {
-    text-decoration: none;
+.center {
+    padding: 0 calc(50% - 1170px/2);
 }
 
-.header-logo {
-    margin-top: 45px;
-}
-
-.logo-image {
-    margin-right: 14px;
-}
-
-.logo-text {
-
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#be {
-    color: #F25822;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.header-nav {
+.nav_link {
+    margin-left: 36px;
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
@@ -47,8 +17,61 @@ body {
     line-height: normal;
 }
 
-.main-content-text {
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_image {
+    margin-right: 14px;
+}
+
+.logo_text {
+
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.orange_text {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_content {
     margin-top: 84px;
+    display: flex;
+    padding-bottom: 162px;
+}
+
+.main_content_text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 41px;
 }
 
 .heading {
@@ -62,6 +85,8 @@ body {
 
 .paragraph {
     margin-top: 17px;
+    margin-right: 100px;
+    margin-bottom: 37px;
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
@@ -70,12 +95,10 @@ body {
     line-height: normal;
 }
 
-.actions {
-    margin-top: 37px;
-}
-
 .start {
     border-radius: 50px;
+    border: none;
+    flex-shrink: 0;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     color: #FFF;
@@ -84,23 +107,24 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 15px 36px 16px 35px;
+    padding: 15px 35px;
     margin-right: 72px;
 }
 
-.video-link {
+.video_link {
     color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration: none;
     margin-top: 15px;
     margin-bottom: 16px;
 }
 
-.partners-logo {
+.partners_logo {
     padding-top: 97px;
     padding-bottom: 97px;
+    display: flex;
+    justify-content: space-between;
 }
