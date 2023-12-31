@@ -8,7 +8,6 @@
 }
 
 .nav_link {
-    margin-left: 36px;
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
@@ -30,10 +29,8 @@ a {
 .header_logo {
     display: flex;
     align-items: center;
-}
-
-.logo_image {
-    margin-right: 14px;
+    justify-content: space-between;
+    gap: 14px;
 }
 
 .logo_text {
@@ -60,18 +57,20 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    justify-content: space-between;
+    gap: 36px;
 }
 
 .main_content {
     margin-top: 84px;
     display: flex;
+    gap: 41px;
     padding-bottom: 162px;
 }
 
 .main_content_text {
     display: flex;
     flex-direction: column;
-    padding-right: 41px;
 }
 
 .heading {
@@ -81,10 +80,10 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 17px;
 }
 
 .paragraph {
-    margin-top: 17px;
     margin-right: 100px;
     margin-bottom: 37px;
     color: #888;
@@ -93,6 +92,12 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.actions {
+display: flex;
+justify-content: flex-start;
+gap: 72px;
 }
 
 .start {
@@ -107,8 +112,7 @@ a {
     font-weight: 400;
     line-height: normal;
     padding: 15px 35px;
-    margin-right: 72px;
-}
+    }
 
 .video_link {
     color: #AAA;
