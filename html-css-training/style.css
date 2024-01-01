@@ -242,8 +242,14 @@ a {
 }
 
 .service__card__desc {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
     margin: 0px 30px 39px;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
