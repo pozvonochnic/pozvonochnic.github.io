@@ -216,7 +216,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    padding: 0 240px;
+    max-width: 75%;
 }
 
 .services__cards {
