@@ -227,7 +227,6 @@ a {
 }
 
 .service__card {
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,7 +246,11 @@ a {
     align-items: center;
     gap: 5px;
     text-align: center;
-    
+
+. service__button {
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
 /* .service__name {
     text-align: center;
 }
