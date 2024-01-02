@@ -239,6 +239,13 @@ a {
     max-width: 100%;
 }
 
+.service__card__text {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
 .service__name {
     text-align: center;
 }
