@@ -186,3 +186,14 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.f__button {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 39px;
+    background-color: #FFF;
+    border: #F16D7F;
+    text-align: center;
+}
