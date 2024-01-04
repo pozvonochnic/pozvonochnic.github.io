@@ -120,7 +120,6 @@ body {
 .featured {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 49px;
     margin-bottom: 60px;
 }
@@ -149,8 +148,7 @@ body {
 
 .featured__items {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 360px);
     gap: 30px;
 }
 
@@ -190,6 +188,7 @@ body {
 
 .f__button {
     display: block;
+    margin: auto;
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
