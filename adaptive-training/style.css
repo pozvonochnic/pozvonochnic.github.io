@@ -201,3 +201,10 @@ img {
     border: 1px solid #F16D7F;
     text-align: center;
 }
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 734px / 2);
+        padding-right: calc(50% - 734px / 2);
+    }
+}
