@@ -47,15 +47,12 @@ body {
 }
 
 .top__heading {
-    padding-left: 16px;
-    border-left: 12px solid #F16D7F;
-    padding-bottom: 90px;
-}
-
-.top__heading__text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 16px;
+    border-left: 12px solid #F16D7F;
+    padding-bottom: 90px;
 }
 
 .top__h1 {
