@@ -207,4 +207,8 @@ img {
         padding-left: calc(50% - 734px / 2);
         padding-right: calc(50% - 734px / 2);
     }
+
+    .top__image {
+        height: 368px;
+    }
 }
