@@ -40,8 +40,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: calc(50% - 1600px / 2);
-    padding-right: calc(50% - 1600px / 2);
     background-color: #F1E4E6;
     margin-bottom: 65px;
 }
