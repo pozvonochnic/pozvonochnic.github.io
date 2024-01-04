@@ -38,17 +38,17 @@ body {
 
 .top {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 250px;
     background-color: #F1E4E6;
     margin-bottom: 65px;
+    
 }
 
 .top__heading {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 330px;
-    gap: 16px;
+    padding-left: 16px;
+    border-left: 12px solid #F16D7F;
     padding-bottom: 90px;
 }
 
