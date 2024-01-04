@@ -78,8 +78,7 @@ img {
 }
 
 .offer {
-/*     display: grid; */
-    display: none;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 55fr 38fr;
     gap: 30px;
@@ -123,8 +122,7 @@ img {
 }
 
 .featured {
-/*     display: flex; */
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 49px;
     margin-bottom: 60px;
@@ -212,5 +210,13 @@ img {
 
     .top__image {
         height: 368px;
+    }
+
+    .offer {
+        display: none;
+    }
+
+    .featured {
+        display: none;
     }
 }
