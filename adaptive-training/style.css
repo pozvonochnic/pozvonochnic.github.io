@@ -13,6 +13,7 @@ body {
 
 img {
     object-fit: cover;
+    width: 100%;
 }
 
 .center {
@@ -215,6 +216,7 @@ img {
     
     .top__image {
         height: 368px;
+        width: auto;
     }
 
     .top {
@@ -235,9 +237,8 @@ img {
         margin-bottom: 78px;
     }
 
-    .offer {
-        display: none;
-    }
+/*     .offer {
+    } */
 
     .featured {
         display: none;
