@@ -213,7 +213,8 @@ img {
     }
 
     .top {
-        padding-left: auto;
+        padding-left: calc(100% + 125px);
+/*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
     }
 
     .offer {
