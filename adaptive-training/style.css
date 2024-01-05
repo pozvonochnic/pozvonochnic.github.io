@@ -52,7 +52,7 @@ img {
 }
 
 .top__image {
-    width: auto;
+    width: initial;
 }
 
 .top__heading {
@@ -220,7 +220,7 @@ img {
     
     .top__image {
         height: 368px;
-/*         width: auto; */
+        width: auto;
     }
 
     .top {
