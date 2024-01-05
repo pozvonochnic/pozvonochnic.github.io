@@ -237,9 +237,15 @@ img {
         margin-bottom: 78px;
     }
 
-/*     .offer {
-    } */
+    .offer {
+        gap: 19px;
+        margin-bottom: 110px;
+    }
 
+    .featured {
+        gap: 45px;
+    }
+    
     .featured__top {
         gap: 3px;
     }
