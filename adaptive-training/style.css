@@ -51,6 +51,10 @@ img {
     margin-bottom: 65px;
 }
 
+.top__image {
+    width: auto;
+}
+
 .top__heading {
     display: flex;
     flex-direction: column;
@@ -216,7 +220,7 @@ img {
     
     .top__image {
         height: 368px;
-        width: auto;
+/*         width: auto; */
     }
 
     .top {
