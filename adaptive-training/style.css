@@ -240,6 +240,10 @@ img {
 /*     .offer {
     } */
 
+    .featured__top {
+        gap: 3px;
+    }
+    
     .featured__items {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
