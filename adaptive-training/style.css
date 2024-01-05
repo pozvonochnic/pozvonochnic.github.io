@@ -219,6 +219,7 @@ img {
 
     .top {
         padding-left: calc((1024px - 100%) / 2 + 50% - 387px);
+        gap: calc(250px - (1024px - 100vw) / 2);
 /*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
     }
 
