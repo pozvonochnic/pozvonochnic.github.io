@@ -218,8 +218,8 @@ img {
     }
 
     .top {
-        padding-left: calc((1024px - 100%) / 2 + 50% - 387px);
-        gap: calc(250px - (1024px - 100vw) / 2);
+        padding-left: calc(94 * (1024px - 100vw) / 256 + 50vw - 734px / 2); /* или calc(94 * (1024px - 100vw) / 256) */
+        gap: calc(238px - 118 * (1024px - 100vw) / 256);
 /*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
     }
 
