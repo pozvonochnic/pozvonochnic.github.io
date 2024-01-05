@@ -83,8 +83,9 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 55fr 38fr;
     gap: 30px;
+/*     Зачем я это сделал? Кажется, оно никак не работает.
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%; */
     margin-bottom: 96px;
 }
 
@@ -240,7 +241,9 @@ img {
 /*     .offer {
     } */
 
-    .featured {
-        display: none;
+    .featured__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
     }
 }
