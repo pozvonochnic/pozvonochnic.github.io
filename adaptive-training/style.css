@@ -217,6 +217,18 @@ img {
 /*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
     }
 
+    .top__h1 {
+        font-size: 44px;
+    }
+
+    .top__h2 {
+        font-size: 24px;
+    }
+
+    .top__heading {
+        margin-bottom: 78px;
+    }
+
     .offer {
         display: none;
     }
