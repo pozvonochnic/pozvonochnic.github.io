@@ -138,7 +138,8 @@ body {
 }
 
 .featured {
-    display: flex;
+    display: none;
+/*     display: flex; */
     flex-direction: column;
     gap: 49px;
     margin-bottom: 60px;
