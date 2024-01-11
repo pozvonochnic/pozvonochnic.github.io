@@ -265,4 +265,21 @@ img {
     .top__img {
         display: none;
     }
+
+    .center {
+        padding-left: calc(50% - 360px / 2);
+        padding-right: calc(50% - 360px / 2);
+    }
+
+    .top {
+        padding-left: calc(50% - 264px / 2);
+        padding-right: calc(50% - 264px / 2);
+    }
+
+    .offer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+        margin-bottom: 64px;
 }
