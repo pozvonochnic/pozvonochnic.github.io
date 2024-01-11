@@ -277,8 +277,9 @@ img {
     }
 
     .offer {
-        display: grid;
-        grid-template-rows: repeat(3, 17fr) 8fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         gap: 32px;
         margin: 0 16px 64px;
     }
