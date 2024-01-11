@@ -303,4 +303,10 @@ body {
     .grid__offer__item {
         height: 112px;
     }
+
+    .grid__offer__img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
 }
