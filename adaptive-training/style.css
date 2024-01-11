@@ -291,6 +291,14 @@ body {
         justify-content: center;
     }
 
+    .top__h1 {
+        font-size: 38px;
+    }
+
+    .top__h2 {
+        font-size: 20px;
+    }
+
     .offer {
         display: flex;
         flex-direction: column;
