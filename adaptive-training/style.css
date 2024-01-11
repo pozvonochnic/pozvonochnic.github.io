@@ -281,5 +281,5 @@ img {
         flex-direction: column;
         justify-content: space-between;
         gap: 32px;
-        margin-bottom: 64px;
+        margin: 0 16px 64px;
 }
