@@ -218,7 +218,7 @@ img {
         padding-right: calc(50% - 702px / 2);
     }
     
-    .top__image {
+    .top__img {
         height: 368px;
 /*         Работает и без этого. Вопрос: Получается, что width: initial в исходных стилях достаточно, чтобы сохранить пропорции изображения? */
 /*         width: auto; */
@@ -258,5 +258,11 @@ img {
     .featured__items {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top__img {
+        display: none;
     }
 }
