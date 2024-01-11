@@ -301,6 +301,6 @@ body {
     }
 
     .grid__offer__item {
-        grid-area: 1 / 2 / 1 / 2;
+        height: 112px;
     }
 }
