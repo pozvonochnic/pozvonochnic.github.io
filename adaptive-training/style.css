@@ -283,8 +283,8 @@ body {
     }
 
     .center {
-        padding-left: calc(50% - 360px / 2);
-        padding-right: calc(50% - 360px / 2);
+        padding-left: calc(50% - 460px / 2);
+        padding-right: calc(50% - 460px / 2);
     }
 
     .top {
