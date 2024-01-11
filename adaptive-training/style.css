@@ -150,6 +150,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 6px;
+    text-align: center;
+    padding: 0 16px;
 }
 
 .featured__heading {
