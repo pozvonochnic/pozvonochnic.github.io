@@ -173,13 +173,13 @@ body {
     gap: 30px;
 }
 
-.prod_item {
+.prod__item {
     background-color: #F8F8F8;
     display: flex;
     flex-direction: column;
 }
 
-.prod_img {
+.prod__img {
     object-fit: cover;
     width: 100%;
 }
