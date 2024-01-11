@@ -291,6 +291,10 @@ body {
         justify-content: center;
     }
 
+    .top__heading {
+        margin: 148px 0;
+    }
+
     .top__h1 {
         font-size: 38px;
     }
