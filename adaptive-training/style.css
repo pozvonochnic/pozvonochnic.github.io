@@ -318,7 +318,7 @@ body {
         padding__right: 16px;
     }
 
-    .prof__icon .cart__icon {
+    .prof__icon, .cart__icon {
         display: none;
     }
 }
