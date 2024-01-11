@@ -287,10 +287,9 @@ body {
         padding-right: calc(50% - 460px / 2);
     }
 
-/*     .top {
-        padding-left: calc(50% - 264px / 2);
-        padding-right: calc(50% - 264px / 2);
-    } */
+    .top {
+        justify-content: center;
+    }
 
     .offer {
         display: flex;
