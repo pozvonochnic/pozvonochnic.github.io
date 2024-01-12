@@ -85,7 +85,8 @@ body {
 .offer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 55fr 38fr;
+    /*grid-template-rows: 55fr 38fr;*/
+    grid-template-rows: 1fr auto;
     gap: 30px;
 /*     Зачем я это сделал? Кажется, оно никак не работает.
     max-width: 100%;
