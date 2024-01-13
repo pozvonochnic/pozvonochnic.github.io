@@ -90,7 +90,7 @@ body {
     position: relative;
 }
 
-.offer__img {
+.offer__img, .offer_link_img {
     object-fit: cover;
     width: 100%;
 }
