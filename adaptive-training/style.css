@@ -278,14 +278,10 @@ body {
         padding-right: 16px;
     }
 
-    .prof__icon, .cart__icon {
+    .prof__icon, .cart__icon, top_img {
         display: none;
     }
     
-    .top__img {
-        display: none;
-    }
-
     .center {
         padding-left: calc(50% - 460px / 2);
         padding-right: calc(50% - 460px / 2);
