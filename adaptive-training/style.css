@@ -226,15 +226,16 @@ body {
         padding-left: calc(50% - 702px / 2);
         padding-right: calc(50% - 702px / 2);
     }
-    
+
     .top__img {
         height: 368px;
     }
 
     .top {
-        padding-left: calc(94 * (1024px - 100vw) / 256 + 50vw - 734px / 2); /* или calc(94 * (1024px - 100vw) / 256) */
+        padding-left: calc(94 * (1024px - 100vw) / 256 + 50vw - 734px / 2);
+        /* или calc(94 * (1024px - 100vw) / 256) */
         gap: calc(238px - 118 * (1024px - 100vw) / 256);
-/*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
+        /*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
     }
 
     .top__h1 {
@@ -257,11 +258,11 @@ body {
     .featured {
         gap: 45px;
     }
-    
+
     .featured__top {
         gap: 3px;
     }
-    
+
     .prod__items {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
@@ -269,7 +270,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    
+
     .header__left {
         padding-left: 16px;
     }
@@ -278,10 +279,12 @@ body {
         padding-right: 16px;
     }
 
-    .prof__icon, .cart__icon, .top__img {
+    .prof__icon,
+    .cart__icon,
+    .top__img {
         display: none;
     }
-    
+
     .center {
         padding-left: calc(50% - 460px / 2);
         padding-right: calc(50% - 460px / 2);
