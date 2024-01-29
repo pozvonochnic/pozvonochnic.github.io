@@ -38,7 +38,7 @@ body {
 }
 
 .header__icon:hover path {
-fill: #F16D7F;
+    fill: #F16D7F;
 }
 
 .top {
@@ -217,7 +217,7 @@ fill: #F16D7F;
     z-index: 1;
 }
 
-.prod__item:hover .hover_bg{
+.prod__item:hover .hover_bg {
     opacity: 0.86;
     transition: 0.2s;
 }
@@ -316,7 +316,7 @@ fill: #F16D7F;
     background-image: url(./img/aside_bg.jpg);
     background-size: cover;
     background-position: bottom;
-    background-color:rgba(244, 244, 244, 0.70);
+    background-color: rgba(244, 244, 244, 0.70);
     background-blend-mode: color;
     display: flex;
     justify-content: space-between;
@@ -370,10 +370,29 @@ fill: #F16D7F;
     line-height: 82%;
 }
 
-.subscribe__form {
-    width: 400px;
-    /* border-radius: 50%;
-background-color: red; */
+.sub__form {
+    display: flex;
+    justify-content: center;
+}
+
+.input__field {
+    height: 49px;
+    color: #222224;
+    background-color: #E1E1E1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 25px;
+    padding-right: 70px;
+}
+
+.subscr__button {
+    padding: 0 21px;
+    background-color: #F16D7F;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .footer {
@@ -412,7 +431,7 @@ background-color: red; */
 }
 
 .social__icon__container:hover {
-background-color: #F16D7F;
+    background-color: #F16D7F;
 }
 
 .social__icon__container:hover path {
@@ -490,8 +509,8 @@ background-color: #F16D7F;
         align-items: center;
         gap: 64px;
     }
-    
-     .header__left {
+
+    .header__left {
         padding-left: 16px;
     }
 
@@ -499,7 +518,9 @@ background-color: #F16D7F;
         padding-right: 16px;
     }
 
-    .prof__icon, .cart__icon, .top__img {
+    .prof__icon,
+    .cart__icon,
+    .top__img {
         display: none;
     }
 
@@ -548,6 +569,7 @@ background-color: #F16D7F;
     .adv__text {
         padding: 0 50px;
     }
+
     .advantages {
         flex-wrap: wrap;
     }
