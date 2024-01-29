@@ -315,15 +315,13 @@ fill: #F16D7F;
 .bottom {
     background-image: url(./img/aside_bg.jpg);
     background-size: cover;
-    background-position: center;
-}
-
-.subscribe {
-    /* display: none; */
+    background-position: bottom;
+    background-color:rgba(244, 244, 244, 0.70);
+    background-blend-mode: color;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(244, 244, 244, 0.70);
-    padding: 150px calc(50% - 1050px / 2);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .bottom__left {
@@ -339,7 +337,6 @@ fill: #F16D7F;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 60px;
 }
 
 .bottom__right {
@@ -357,8 +354,20 @@ fill: #F16D7F;
     line-height: normal;
 }
 
-.subscr__title {
-    text-align: center;
+.sub__str__1 {
+    color: #222224;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62%;
+}
+
+.sub__str__2 {
+    color: #222224;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82%;
 }
 
 .subscribe__form {
@@ -410,6 +419,13 @@ background-color: #F16D7F;
     fill: #FFF;
 }
 
+@media (max-width: 1204px) {
+    .center {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
 @media (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 734px / 2);
@@ -427,9 +443,7 @@ background-color: #F16D7F;
 
     .top {
         padding-left: calc(94 * (1024px - 100vw) / 256 + 50vw - 734px / 2);
-        /* или calc(94 * (1024px - 100vw) / 256) */
         gap: calc(238px - 118 * (1024px - 100vw) / 256);
-        /*      расчёт   calc((1024px - 100%) / 2 - 20px + 50% - 734px / 2) */
     }
 
     .top__h1 {
@@ -471,9 +485,10 @@ background-color: #F16D7F;
 
 @media (max-width: 767px) {
 
-    .subscribe {
+    .bottom {
         flex-direction: column;
         align-items: center;
+        gap: 64px;
     }
     
      .header__left {
@@ -484,9 +499,7 @@ background-color: #F16D7F;
         padding-right: 16px;
     }
 
-    .prof__icon,
-    .cart__icon,
-    .top__img {
+    .prof__icon, .cart__icon, .top__img {
         display: none;
     }
 
