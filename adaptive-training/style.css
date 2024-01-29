@@ -37,6 +37,10 @@ body {
     gap: 33px;
 }
 
+.header__icon:hover path {
+fill: #F16D7F;
+}
+
 .top {
     display: flex;
     justify-content: flex-start;
@@ -172,9 +176,21 @@ body {
     flex-direction: column;
 }
 
+.img__container {
+    position: relative;
+}
+
 .prod__img {
     object-fit: cover;
     width: 100%;
+    /* position: absolute;
+    z-index: 0; */
+}
+
+.add_to_cart_button {
+    display: none;
+    position: absolute;
+    z-index: 1;
 }
 
 .prod__item__text {
@@ -214,6 +230,11 @@ body {
     padding: 15px 39px;
     background-color: #FFF;
     border: 1px solid #F16D7F;
+}
+
+.more__button:hover {
+    background-color: #F16D7F;
+    color: #FFF;
 }
 
 .advantages {
@@ -256,7 +277,7 @@ body {
     line-height: normal;
 }
 
-.lower {
+.bottom {
     background-image: url(/img/aside_bg.jpg);
     background-size: cover;
     background-position: center;
@@ -270,7 +291,7 @@ body {
     padding: 150px calc(50% - 1050px / 2);
 }
 
-.lower__left {
+.bottom__left {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -284,7 +305,7 @@ body {
     line-height: normal;
 }
 
-.lower__right {
+.bottom__right {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -300,9 +321,52 @@ body {
 }
 
 .subscribe__form {
-width: 400px;
-/* border-radius: 50%;
+    width: 400px;
+    /* border-radius: 50%;
 background-color: red; */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.footer__left {
+    color: #FBFBFB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__right {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__icon__container {
+    background-color: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+.social__icon {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.social__icon__container:hover {
+background-color: #F16D7F;
+}
+
+.social__icon__container:hover path {
+    fill: #FFF;
 }
 
 @media (max-width: 1024px) {
