@@ -313,7 +313,7 @@ fill: #F16D7F;
 }
 
 .bottom {
-    background-image: url(/img/aside_bg.jpg);
+    background-image: url(./img/aside_bg.jpg);
     background-size: cover;
     background-position: center;
 }
