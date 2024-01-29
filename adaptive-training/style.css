@@ -190,11 +190,6 @@ fill: #F16D7F;
     z-index: 0;
 }
 
-.img__container:hover .prod__img {
-    scale: 1.05;
-    transition: 0.3s;
-}
-
 .add_to_cart_button {
     display: none;
     align-items: center;
@@ -210,7 +205,7 @@ fill: #F16D7F;
     z-index: 2;
 }
 
-.img__container:hover .add_to_cart_button {
+.prod__item:hover .add_to_cart_button {
     display: flex;
 }
 
@@ -223,10 +218,14 @@ fill: #F16D7F;
     z-index: 1;
 }
 
-.img__container:hover .hover_bg{
+.prod__item:hover .hover_bg{
     opacity: 0.86;
-    scale: 1.05;
-    transition: 0.3s;
+    transition: 0.2s;
+}
+
+.prod__item:hover {
+    scale: 1.02;
+    transition: 0.2s;
 }
 
 .prod__item__text {
@@ -284,6 +283,7 @@ fill: #F16D7F;
 .more__button:hover {
     background-color: #F16D7F;
     color: #FFF;
+    transition: 0.3s;
 }
 
 .advantages {
