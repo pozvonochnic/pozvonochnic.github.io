@@ -367,7 +367,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 82%;
+    line-height: 120%;
 }
 
 .subscr__form {
@@ -587,5 +587,14 @@ body {
         padding-bottom: 9px;
         justify-content: space-between;
         gap: 42px;
+    }
+
+    .input__field {
+        padding-right: 0;
+    }
+
+    .quot__text, .sub__str__2 {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
