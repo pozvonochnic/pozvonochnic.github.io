@@ -370,14 +370,13 @@ body {
     line-height: 82%;
 }
 
-.sub__form {
+.subscr__form {
     display: flex;
-    justify-content: center;
 }
 
 .input__field {
     height: 49px;
-    color: #626263;
+    outline: none;
     background-color: #E1E1E1;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
