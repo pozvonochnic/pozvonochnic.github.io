@@ -36,4 +36,4 @@ const hundreds = (userNum % 1000 - userNum % 100) / 100;
 const tens = (userNum % 100 - userNum % 10) / 10;
 const ones = userNum % 10;
 
-alert(`В числе ${userNum} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${ones}`);
+alert(`В числе ${userNum} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${ones}.`);
